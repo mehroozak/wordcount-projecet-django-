@@ -19,4 +19,4 @@ def count(request):
 	return render(request, 'counted.html',{'splitedText':text_in_split,'wordList' : sorted(list(word.items()))})
 
 def about(request):
-	return render(request , 'about.html') 
+	return render(request , 'about.html')      
