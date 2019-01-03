@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+	<a href="{% url 'home' %}">Back to home</a>
+	<h2>this is counted file :</h2>
+	
+	<p style="font-style: bold;">
+		{% for word,count in wordList %}
+		{{word}}   {{count}}
+		<br/>
+		{%endfor%}
+	</p>
+</body>
+</html>
